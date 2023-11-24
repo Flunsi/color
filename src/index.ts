@@ -1,1 +1,3 @@
-export * from './divide'
+export * from './types'
+
+export * from './colors'
