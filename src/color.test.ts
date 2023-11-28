@@ -1,6 +1,7 @@
-
+import { linky4 } from "@flunsi/utility"
 
 
 describe('dummy', () => {
-	test('dummy', () => { expect(1).toEqual(1) })
+	const myNum = linky4(2)
+	test('dummy', () => { expect(myNum).toEqual(3) })
 })
