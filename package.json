@@ -1,6 +1,6 @@
 {
 	"name": "@flunsi/color",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "color",
 	"keywords": [
 		"color"
@@ -15,9 +15,7 @@
 		"url": "https://github.com/Flunsi/color/issues"
 	},
 	"type": "module",
-	"files": [
-		"dist/*"
-	],
+	"files": [ "dist/*" ],
 	"main": "dist/index.cjs",
 	"module": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -31,13 +29,15 @@
 		"release": "npm publish --access public"
 	},
 	"devDependencies": {
-		"@typescript-eslint/eslint-plugin": "6.13.1",
-		"eslint": "8.54.0",
-		"tsup": "^8.0.1",
-		"typescript": "^5.3.2",
-		"vitest": "^0.34.6"
+		"typescript": "^5.6.3",
+		"tsup": "^8.3.5",
+		"@eslint/js": "^9.14.0",
+		"eslint": "^9.14.0",
+		"globals": "^15.12.0",
+		"typescript-eslint": "^8.14.0",
+		"vitest": "^2.1.4"
 	},
 	"dependencies": {
-		"@flunsi/utility": "file:../utility"
+		"@flunsi/utility": "^0.0.11"
 	}
 }
